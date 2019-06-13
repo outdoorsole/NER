@@ -14,6 +14,7 @@
 		160BCC5922A8B3480084CF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160BCC5722A8B3480084CF8C /* LaunchScreen.storyboard */; };
 		160BCC6422A8B3480084CF8C /* NERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BCC6322A8B3480084CF8C /* NERTests.swift */; };
 		160BCC6F22A8B3480084CF8C /* NERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BCC6E22A8B3480084CF8C /* NERUITests.swift */; };
+		160BCC7D22A8C4920084CF8C /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BCC7C22A8C4920084CF8C /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		160BCC6A22A8B3480084CF8C /* NERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		160BCC6E22A8B3480084CF8C /* NERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERUITests.swift; sourceTree = "<group>"; };
 		160BCC7022A8B3480084CF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160BCC7C22A8C4920084CF8C /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				160BCC4E22A8B3470084CF8C /* AppDelegate.swift */,
 				160BCC5022A8B3470084CF8C /* ViewController.swift */,
+				160BCC7C22A8C4920084CF8C /* DrawView.swift */,
 				160BCC5222A8B3470084CF8C /* Main.storyboard */,
 				160BCC5522A8B3480084CF8C /* Assets.xcassets */,
 				160BCC5722A8B3480084CF8C /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				160BCC5122A8B3470084CF8C /* ViewController.swift in Sources */,
 				160BCC4F22A8B3470084CF8C /* AppDelegate.swift in Sources */,
+				160BCC7D22A8C4920084CF8C /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VKKZ6JX7SH;
 				INFOPLIST_FILE = NER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VKKZ6JX7SH;
 				INFOPLIST_FILE = NER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
